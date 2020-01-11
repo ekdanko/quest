@@ -11,21 +11,21 @@
 }
 
 .content{
-	max-width: 250px;
-	max-height: 250px;
-	border:3px #000 solid;
-	background: red;
+	width: 250px;
+	height: 250px;
+	border:3px #004ba0 solid;
+	background: #63a4ff;
 	display: flex;
 	justify-content: space-between;
-	align-items: space-between;
+	align-content: space-between;
 	flex-wrap: wrap;
-
+	
 }
 
 .rec{
 	width: 110px;
 	height: 110px;
-	background: green;
-	border: 1px blue solid;
-	margin: 5px;
+	background: #1976d2;
+	border: 1px #fff solid;
+	
 }
