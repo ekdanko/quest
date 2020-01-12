@@ -29,3 +29,8 @@
 	border: 1px #fff solid;
 	
 }
+
+.content:hover .rec{
+	border-radius: 80%; 
+	transition: border-radius .3s;
+}
