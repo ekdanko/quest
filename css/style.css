@@ -34,3 +34,49 @@
 	border-radius: 80%; 
 	transition: border-radius .3s;
 }
+
+.bor1{
+	width: 100px;
+	height: 100px;
+	border-bottom: 5px #000 solid;
+	border-left: 5px #000 solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.bor2{
+	width: 80px;
+	height: 80px;
+	border-bottom: 5px #000 solid;
+	border-left: 5px #000 solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bor3{
+	width: 60px;
+	height: 60px;
+	border-bottom: 5px #000 solid;
+	border-left: 5px #000 solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content:hover .bor1{
+	border-color: green;
+	transition: border-color .3s .2s;
+}
+
+.content:hover .bor2{
+	border-color: yellow;
+	transition: border-color .3s .5s;
+}
+
+.content:hover .bor3{
+	border-color:  #f44336;
+	transition: border-color .3s .7s;
+}
